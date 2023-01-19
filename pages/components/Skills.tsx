@@ -35,12 +35,15 @@ const Skills = (props: Props) => {
         transition={{
           duration: 3,
         }}
+        viewport={{
+          once: true,
+        }}
         className="grid grid-cols-4 gap-4 px-"
       >
         {SkillFet &&
           SkillFet.map((item, index) => {
             return (
-              <motion.div className="group relative flex cursor-pointer">
+              <div className="group relative flex cursor-pointer">
                 <Image
                   src={item.imgLink}
                   alt={item.skillName}
@@ -48,14 +51,14 @@ const Skills = (props: Props) => {
                   width={100}
                   className="rounded-full border border-gray-400 object-cover p-3 w-24 h-24 md:h-28 md:w-28 xl:h-32 xl:w-32 filter group-hover:grayscale transition duration-200 ease-in "
                 />
-                <div className="absolute opacity-0 group-hover:opacity-80 transition duration-200 ease-in z-0 group-hover:bg-white w-24 h-24 md:h-28 md:w-28  xl:h-32 xl:w-32 rounded-full">
+                <div className="absolute opacity-0 group-hover:opacity-80 transition duration-200 ease-in z-0 group-hover:bg-white p-3 w-24 h-24 md:h-28 md:w-28  xl:h-32 xl:w-32 rounded-full">
                   <div className="flex items-center justify-center h-full">
                     <p className="text-3xl font-bold text-[#1b1f3b] opacity-100">
                       {item.rate}
                     </p>
                   </div>
                 </div>
-              </motion.div>
+              </div>
             );
           })}
       </motion.div>

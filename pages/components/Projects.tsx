@@ -41,7 +41,7 @@ const Projects = (props: Props) => {
                 <img
                   src={item.proSource}
                   alt={item.proName}
-                  className="h-52 rounded-lg object-cover items-center cursor-pointer hover:scale-125 transition duration-400 ease-in-out"
+                  className="h-52 w-80 rounded-lg object-cover items-center cursor-pointer hover:scale-125 transition duration-400 ease-in-out"
                 />
 
                 <div className="space-y-10 px-0 py-5 md:px-10 max-w-5xl">

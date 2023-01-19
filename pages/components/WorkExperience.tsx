@@ -16,6 +16,9 @@ const WorkExperience = (props: Props) => {
       transition={{
         duration: 1,
       }}
+      viewport={{
+        once: true,
+      }}
       className="h-screen flex flex-col md:flex-row relative max-w-full overflow-hidden text-left items-center mx-auto px-10 justify-evenly "
     >
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl ">

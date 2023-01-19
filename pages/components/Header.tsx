@@ -22,6 +22,9 @@ const Header = (props: Props) => {
         transition={{
           duration: 1.2,
         }}
+        viewport={{
+          once: true,
+        }}
         className="flex flex-row items-center"
       >
         {/* Social Icons */}
