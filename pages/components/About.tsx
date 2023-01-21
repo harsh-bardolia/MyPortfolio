@@ -44,14 +44,14 @@ const About = (props: Props) => {
 
       <div className="space-y-10 px-0 md:px-10 ">
         <h4 className="text-[#225560] text-4xl text-semibold">
-          Here's a{" "}
+          Here&apos;s a{" "}
           <span className="underline decoration-[#f0803c]">little</span>{" "}
           background
         </h4>
         <div className="text-sm text-[#e1bbc9]">
-          Respectful self-motivated & gifted for finding the relatable solution
-          for every software issue well known in Basic Programming Languages &
-          Web Development. A coin has two choices, Heads & Tails. Similarly, we
+          Respectful self-motivated &amp; gifted for finding the relatable solution
+          for every software issue well known in Basic Programming Languages &amp;
+          Web Development. A coin has two choices, Heads &amp; Tails. Similarly, we
           must live with the problem or solve it in a simplified way. Currently
           working on Blockchain and exploring Web3.
         </div>

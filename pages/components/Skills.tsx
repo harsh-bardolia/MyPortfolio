@@ -4,7 +4,7 @@ import SkillFet from "../../Fetchers/SkillsFetch.json";
 import Image from "next/image";
 type Props = {};
 
-const Skills = (props: Props) => {
+const Skills =  (props: Props) => {
   return (
     <motion.div
       initial={{
@@ -38,12 +38,12 @@ const Skills = (props: Props) => {
         viewport={{
           once: true,
         }}
-        className="grid grid-cols-4 gap-4 px-"
+        className="grid grid-cols-3 md:grid-cols-4 gap-4"
       >
         {SkillFet &&
           SkillFet.map((item, index) => {
             return (
-              <div className="group relative flex cursor-pointer">
+              <div key={index} className="group relative flex cursor-pointer">
                 <Image
                   src={item.imgLink}
                   alt={item.skillName}
