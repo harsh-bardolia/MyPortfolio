@@ -38,7 +38,7 @@ const Skills =  (props: Props) => {
         viewport={{
           once: true,
         }}
-        className="grid grid-cols-3 md:grid-cols-4 gap-4"
+        className="grid grid-cols-3 lg:grid-cols-4 gap-4"
       >
         {SkillFet &&
           SkillFet.map((item, index) => {
