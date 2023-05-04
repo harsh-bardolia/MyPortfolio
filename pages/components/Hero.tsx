@@ -5,7 +5,6 @@ import HeroImg from "../../image-assests/hero.jpg";
 import Link from "next/link";
 import BackgroundCircles from "./BackgroundCircles";
 
-
 type Props = {};
 
 const Hero = (props: Props) => {
@@ -19,6 +18,17 @@ const Hero = (props: Props) => {
     loop: true,
     delaySpeed: 1000,
   });
+
+  const scrollToSection = (e: string) => {
+    const element = document.getElementById(e);
+    if (element) {
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: "end",
+        inline: "nearest",
+      });
+    }
+  };
   return (
     <div className="flex flex-col h-screen overflow-hidden space-y-8 justify-center text-center items-center">
       <BackgroundCircles />
@@ -40,21 +50,36 @@ const Hero = (props: Props) => {
         </h1>
 
         <div className="pt-3">
-          <Link href="#about">
-            <button className="heroButton">About</button>
-          </Link>
-          <Link href="#education">
-            <button className="heroButton">Education</button>
-          </Link>
-          <Link href="#experience">
-            <button className="heroButton">Experience</button>
-          </Link>
-          <Link href="#skills">
-            <button className="heroButton">Skills</button>
-          </Link>
-          <Link href="#projects">
-            <button className="heroButton">Projects</button>
-          </Link>
+          <button
+            onClick={() => scrollToSection("about")}
+            className="heroButton"
+          >
+            About
+          </button>
+          <button
+            onClick={() => scrollToSection("education")}
+            className="heroButton"
+          >
+            Education
+          </button>
+          <button
+            onClick={() => scrollToSection("experience")}
+            className="heroButton"
+          >
+            Experience
+          </button>
+          <button
+            onClick={() => scrollToSection("skills")}
+            className="heroButton"
+          >
+            Skills
+          </button>
+          <button
+            onClick={() => scrollToSection("projects")}
+            className="heroButton"
+          >
+            Projects
+          </button>
         </div>
       </div>
     </div>
