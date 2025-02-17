@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import SkillFet from "../../Fetchers/SkillsFetch.json";
+import SkillFet from "../../Fetchers/skills.json";
 import Image from "next/image";
 type Props = {};
 
-const Skills =  (props: Props) => {
+const Skills = (props: Props) => {
   return (
     <motion.div
       initial={{
@@ -21,7 +21,7 @@ const Skills =  (props: Props) => {
       <h3 className=" absolute top-20 tracking-[20px] uppercase text-gray-500 text-2xl">
         Skills
       </h3>
-      {/* <h3 className=" absolute top-40 tracking-[5px] uppercase text-gray-500 text-sm xl:mb-28">Hover over for skill proficiency</h3> */}
+      <h3 className=" absolute top-40 tracking-[5px] uppercase text-gray-500 text-sm xl:mb-28">Hover over for skill proficiency</h3>
 
       <motion.div
         initial={{

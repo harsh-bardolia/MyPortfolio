@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Harsh Bardolia's Portfolio</title>
+        <title>Harsh Bardolia</title>
         <link rel="shortcut icon" href="/harsh_logo.jpg" />
       </Head>
-      <main className="text-white h-screen bg-[#171219] snap-y snap-mandatory overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-[#f0803c] scrollbar-track-[#00337c]/10 z-0">
+      <main className="text-gray-500 h-screen bg-[#171219] snap-y snap-mandatory overflow-y-scroll overflow-x-hidden scrollbar-thin scrollbar-thumb-[#3cccf0] scrollbar-track-[#00337c]/10 z-0">
         {/* Header */}
         <Header />
 
