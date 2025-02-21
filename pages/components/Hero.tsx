@@ -12,8 +12,11 @@ const Hero = (props: Props) => {
     words: [
       "Hey, The Name's Harsh Bardolia",
       "Loves-To-Code-Daily.js",
-      "<Guy-Who-Loves-Chai-With-Thepla />",
+      "<Guy-Who-Debugs-With-Chai-And-Code />;",
       "Never_Stop_Till_Death.tsx",
+      "Never_Stop_Till_Server_Crashes.tsx;",
+      "Loves-To-Optimize-Queries.gql;",
+      "Never_Stop_Till_404.tsx;",
     ],
     loop: true,
     delaySpeed: 1000,
@@ -41,12 +44,12 @@ const Hero = (props: Props) => {
 
       <div className="z-20">
         <h2 className="uppercase text-sm text-gray-500 pb-2 tracking-[15px] ">
-          Web Developer
+          Backend Developer
         </h2>
 
-        <h1 className="text-4xl text-[#f0803c] lg:text-6xl font-semibold px-10">
+        <h1 className="text-4xl text-cyan-200 lg:text-6xl font-semibold px-10">
           <span className="mr-3">{text}</span>
-          <Cursor cursorColor="#f0803c" />
+          <Cursor cursorColor="#3cccf0" />
         </h1>
 
         <div className="pt-3">

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "company": "LOGICWIND",
+    "role": "Backend Developer",
+    "duration": "June 2024 - Present",
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFzFLl7D_QE7Q/company-logo_200_200/company-logo_200_200/0/1718883016280/logicwind_logo?e=2147483647&v=beta&t=rKUnKPM0zagpy0EmFcFjlacKXr6j62F1QKZZapvPAmU",
+    "responsibilities": [
+      "Developed and maintained RESTful APIs using Node.js and Express.js.",
+      "Collaborated with front-end teams to ensure seamless service integration.",
+      "Implemented unit and integration tests to maintain code quality.",
+      "Implemented robust data storage solutions using MongoDB and SQL databases for efficient data management.",
+      "Developed web scraping scripts to extract and process data from various sources."
+    ]
+  },
+  {
+    "id": 2,
+    "company": "LOGICWIND",
+    "role": "Node Js Intern",
+    "duration": "Jan 2024 - May 2024",
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFzFLl7D_QE7Q/company-logo_200_200/company-logo_200_200/0/1718883016280/logicwind_logo?e=2147483647&v=beta&t=rKUnKPM0zagpy0EmFcFjlacKXr6j62F1QKZZapvPAmU",
+    "responsibilities": [
+      "Assisted in developing backend services using Node.js and Express.js.",
+      "Worked on API integrations to enhance functionality across platforms.",
+      "Contributed to bug fixing and optimization of backend code.",
+      "Collaborated with senior developers to improve application performance.",
+      "Learned and implemented cloud deployment using AWS and Docker."
+    ]
+  },
+  {
+    "id": 3,
+    "company": "LOGICWIND",
+    "role": "Node Js Intern",
+    "duration": "Jan 2024 - May 2024",
+    "logo": "https://media.licdn.com/dms/image/v2/D4D0BAQFzFLl7D_QE7Q/company-logo_200_200/company-logo_200_200/0/1718883016280/logicwind_logo?e=2147483647&v=beta&t=rKUnKPM0zagpy0EmFcFjlacKXr6j62F1QKZZapvPAmU",
+    "responsibilities": [
+      "Assisted in developing backend services using Node.js and Express.js.",
+      "Worked on API integrations to enhance functionality across platforms.",
+      "Contributed to bug fixing and optimization of backend code.",
+      "Collaborated with senior developers to improve application performance.",
+      "Learned and implemented cloud deployment using AWS and Docker."
+    ]
+  }
+]

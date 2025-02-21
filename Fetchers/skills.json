@@ -1,0 +1,72 @@
+[
+  {
+    "skillName": "HTML5",
+    "imgLink": "https://img.icons8.com/color/480/null/html-5--v1.png",
+    "rate": "75%"
+  },
+  {
+    "skillName": "CSS3",
+    "imgLink": "https://img.icons8.com/color/480/null/css3.png",
+    "rate": "80%"
+  },
+  {
+    "skillName": "Javascript",
+    "imgLink": "https://img.icons8.com/fluency/480/null/javascript.png",
+    "rate": "65%"
+  },
+  {
+    "skillName": "React",
+    "imgLink": "https://img.icons8.com/ultraviolet/480/null/react--v1.png",
+    "rate": "40%"
+  },
+  {
+    "skillName": "AWS S3",
+    "imgLink": "https://img.icons8.com/?size=100&id=33039&format=png&color=000000",
+    "rate": "40%"
+  },
+  {
+    "skillName": "MongoDB",
+    "imgLink": "https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000",
+    "rate": "60%"
+  },
+  {
+    "skillName": "MySql",
+    "imgLink": "https://img.icons8.com/color/480/null/my-sql.png",
+    "rate": "65%"
+  },
+  {
+    "skillName": "PostgreSQL",
+    "imgLink": "https://img.icons8.com/?size=100&id=LwQEs9KnDgIo&format=png&color=000000",
+    "rate": "65%"
+  },
+  {
+    "skillName": "Puppeteer",
+    "imgLink": "https://miro.medium.com/v2/resize:fit:1200/0*7H-A0hquCEuyLG08.png",
+    "rate": "80%"
+  },
+  {
+    "skillName": "TailwindCSS",
+    "imgLink": "https://img.icons8.com/color/480/null/tailwindcss.png",
+    "rate": "75%"
+  },
+  {
+    "skillName": "GraphQL",
+    "imgLink": "https://img.icons8.com/?size=100&id=zdI5E8moxhs-&format=png&color=000000",
+    "rate": "70%"
+  },
+  {
+    "skillName": "TailwindCSS",
+    "imgLink": "https://img.icons8.com/color/480/null/tailwindcss.png",
+    "rate": "85%"
+  },
+  {
+    "skillName": "ElasticSearch",
+    "imgLink": "https://img.icons8.com/?size=100&id=aGBLcugRkYpT&format=png&color=000000",
+    "rate": "40%"
+  },
+  {
+    "skillName": "TypeScript",
+    "imgLink": "https://img.icons8.com/?size=100&id=wpZmKzk11AzJ&format=png&color=000000",
+    "rate": "70%"
+  }
+]

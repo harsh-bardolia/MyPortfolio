@@ -2,12 +2,12 @@ import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
 
 import {
-    EnvelopeIcon,
-    MapPinIcon,
-    PhoneIcon,
-  } from "@heroicons/react/24/solid";
+  EnvelopeIcon,
+  MapPinIcon,
+  PhoneIcon,
+} from "@heroicons/react/24/solid";
 
-  
+
 type Props = {};
 
 const ContactMe = (props: Props) => {
@@ -20,23 +20,23 @@ const ContactMe = (props: Props) => {
       <div className="flex flex-col space-y-8">
         <h4 className="text-2xl font-bold text-center ">
           I have got just what you need.{" "}
-          <span className="underline decoration-[#f0803c]">Lets Talk</span>
+          <span className="underline decoration-[#3cccf0]">Lets Talk</span>
         </h4>
       </div>
 
       <div className="space-y-5">
-        <div className="flex items-center space-x-5">
-          <PhoneIcon className="h-7 text-[#f0803c] animate-bounce" />
+        {/* <div className="flex items-center space-x-5">
+          <PhoneIcon className="h-7 text-[#3cccf0] animate-bounce" />
           <p className="text-xl">+91 8320339742</p>
-        </div>
+        </div> */}
 
         <div className="flex items-center space-x-5">
-          <MapPinIcon className="h-7 text-[#f0803c] animate-bounce" />
+          <MapPinIcon className="h-7 text-[#3cccf0] animate-bounce" />
           <p className="text-xl">India</p>
         </div>
 
         <div className="flex items-center space-x-5">
-          <EnvelopeIcon className="h-7 text-[#f0803c] animate-bounce" />
+          <EnvelopeIcon className="h-7 text-[#3cccf0] animate-bounce" />
           <p className="text-xl">hbardolia2002@gmail.com</p>
         </div>
       </div>
@@ -70,7 +70,7 @@ const ContactMe = (props: Props) => {
           placeholder="Message"
           className="contactIn"
         ></textarea>
-        <button className="bg-[#f0803c] rounded-md py-3 uppercase text-black font-bold text-md">
+        <button className="bg-[#3cccf0] rounded-md py-3 uppercase text-black font-bold text-md">
           Submit
         </button>
       </form> */}
